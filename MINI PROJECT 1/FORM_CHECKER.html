@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengecekan Formulir Terbaru</title>
+    <link rel="stylesheet" href="FORM_CHECKER.css">
+</head>
+<body>
+    <div class="card">
+        <h2>PENDAFTARAN FORMULIR-NYA</h2>
+
+        <div class="form-group">
+            <label>Username</label>
+            <input type = "text" placeholder="Masukkan Username Kalian">
+            <div class="error-msg">USERNAME WAJIB DIISI!</div>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type= "password" id="password-input" placeholder="Masukkan Password Kalian">
+            <div class="error-msg">PASSWORD WAJIB DIISI!</div>
+        </div>
+
+        <div class="btn-group">
+            <button id="btn-register">DAFTAR</button>
+            <button id="btn-clear">RESET</button>
+        </div>
+
+        <div id="status-area"></div>
+
+    </div>
+    <script src="FORM_CHECKER.js"></script>
+</body>
+</html>
